@@ -58,8 +58,10 @@ subprojects {
 
 	dependencies {
 		val compileOnly by configurations
+		val redditApk by configurations
 
 		compileOnly("com.github.redditvanced:Core:1.0.0")
+		redditApk("::SNAPSHOT")
 	}
 }
 
