@@ -9,6 +9,8 @@ import com.github.redditvanced.core.util.Utils
 // It contains other attributes, for example you can pass in `requiresRestart = true` to restart the plugin when its updated.
 @RedditVancedPlugin
 @Suppress("unused")
+// Your plugin name must match the class name AND gradle project name
+// It must be alphanumerical + underscores and not start with a number. Length 1-32 (However please provide a meaningful name)
 class HelloWorld(manifest: PluginManifest) : Plugin(manifest) {
 	// This is the main entry point of your plugin,
 	// Do any patching, requests, etc. here.
