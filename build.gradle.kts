@@ -6,11 +6,12 @@ buildscript {
 	repositories {
 		google()
 		mavenCentral()
+		maven("https://redditvanced.ddns.net/maven/releases")
 		maven("https://jitpack.io")
 	}
 	dependencies {
 		classpath("com.android.tools.build:gradle:7.0.4")
-		classpath("com.github.redditvanced:gradle:1.0.2")
+		classpath("com.github.redditvanced:gradle:1.0.3")
 		classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.10")
 	}
 }
@@ -51,6 +52,7 @@ subprojects {
 	repositories {
 		google()
 		mavenCentral()
+		maven("https://redditvanced.ddns.net/maven/releases")
 		maven("https://jitpack.io")
 	}
 
